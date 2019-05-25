@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    public enum CXObjCPropertyAttrKind
+    internal enum CXObjCPropertyAttrKind
     {
         CXObjCPropertyAttr_noattr = 0x00,
         CXObjCPropertyAttr_readonly = 0x01,

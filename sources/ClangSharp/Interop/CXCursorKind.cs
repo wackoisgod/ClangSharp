@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    public enum CXCursorKind
+    internal enum CXCursorKind
     {
         CXCursor_UnexposedDecl = 1,
         CXCursor_StructDecl = 2,

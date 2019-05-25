@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    public enum CXCursor_ExceptionSpecificationKind
+    internal enum CXCursor_ExceptionSpecificationKind
     {
         CXCursor_ExceptionSpecificationKind_None,
         CXCursor_ExceptionSpecificationKind_DynamicNone,

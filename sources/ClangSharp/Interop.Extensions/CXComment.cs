@@ -2,7 +2,7 @@
 
 namespace ClangSharp.Interop
 {
-    public partial struct CXComment
+    internal partial struct CXComment
     {
         public CXString BlockCommandComment_CommandName => clang.BlockCommandComment_getCommandName(this);
 

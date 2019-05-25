@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    public enum CXIdxEntityKind
+    internal enum CXIdxEntityKind
     {
         CXIdxEntity_Unexposed = 0,
         CXIdxEntity_Typedef = 1,

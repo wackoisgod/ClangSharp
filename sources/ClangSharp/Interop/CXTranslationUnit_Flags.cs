@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    public enum CXTranslationUnit_Flags
+    internal enum CXTranslationUnit_Flags
     {
         CXTranslationUnit_None = 0x0,
         CXTranslationUnit_DetailedPreprocessingRecord = 0x01,
