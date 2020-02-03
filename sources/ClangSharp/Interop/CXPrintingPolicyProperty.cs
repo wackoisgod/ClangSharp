@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    internal enum CXPrintingPolicyProperty
+    public enum CXPrintingPolicyProperty
     {
         CXPrintingPolicy_Indentation,
         CXPrintingPolicy_SuppressSpecifiers,

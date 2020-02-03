@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    internal enum CXCompletionChunkKind
+    public enum CXCompletionChunkKind
     {
         CXCompletionChunk_Optional,
         CXCompletionChunk_TypedText,

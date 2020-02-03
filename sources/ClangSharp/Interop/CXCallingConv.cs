@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    internal enum CXCallingConv
+    public enum CXCallingConv
     {
         CXCallingConv_Default = 0,
         CXCallingConv_C = 1,

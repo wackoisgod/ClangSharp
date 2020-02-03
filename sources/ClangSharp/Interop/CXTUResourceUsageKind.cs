@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    internal enum CXTUResourceUsageKind
+    public enum CXTUResourceUsageKind
     {
         CXTUResourceUsage_AST = 1,
         CXTUResourceUsage_Identifiers = 2,

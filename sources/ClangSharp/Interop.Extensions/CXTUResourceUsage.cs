@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace ClangSharp.Interop
 {
-    internal partial struct CXTUResourceUsage : IDisposable, IReadOnlyCollection<CXTUResourceUsageEntry>
+    public partial struct CXTUResourceUsage : IDisposable, IReadOnlyCollection<CXTUResourceUsageEntry>
     {
         public unsafe CXTUResourceUsageEntry this[uint index] => entries[index];
 

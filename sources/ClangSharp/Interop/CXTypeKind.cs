@@ -5,7 +5,7 @@
 
 namespace ClangSharp.Interop
 {
-    internal enum CXTypeKind
+    public enum CXTypeKind
     {
         CXType_Invalid = 0,
         CXType_Unexposed = 1,
